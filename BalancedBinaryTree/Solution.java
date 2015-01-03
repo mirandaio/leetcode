@@ -9,22 +9,26 @@
  */
 public class Solution {
     public boolean isBalanced(TreeNode root) {
-        if(root == null)
-            return true;
-
-        int hleft = height(root.left);
-        int hright = height(root.right);
-        
-        if(Math.abs(hleft - hright) > 1)
-            return false;
-
-        return isBalanced(root.left) && isBalanced(root.right);
+        return height(root) != -1;
     }
 
     private int height(TreeNode root) {
         if(root == null)
             return 0;
 
-        return 1 + Math.max(height(root.left), height(root.right));
+        int leftHeight = height(root.left);
+
+        if(leftHeight == -1)
+            return -1;
+
+        int rightHeight = height(root.right);
+
+        if(rightHeight == -1)
+            return -1;
+
+        if(Math.abs(leftHeight - rightHeight) > 1)
+            return -1;
+
+        return 1 + Math.max(leftHeight, rightHeight);
     }
 }
