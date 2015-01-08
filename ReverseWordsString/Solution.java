@@ -4,6 +4,7 @@ public class Solution {
         char[] arr = new char[len];
         int i = len - 1;
         int j = 0;
+        int newLen;
 
         while(i >= 0) {
             if(!Character.isWhitespace(s.charAt(i)) ||
@@ -15,22 +16,22 @@ public class Solution {
         }
 
         i = 0;
-        len = j;
+        newLen = j;
 
-        while(i < len) {
-            while(i < len && Character.isWhitespace(arr[i]))
+        while(i < newLen) {
+            while(i < newLen && Character.isWhitespace(arr[i]))
                 i++;
 
             j = i + 1;
 
-            while(j < len && !Character.isWhitespace(arr[j]))
+            while(j < newLen && !Character.isWhitespace(arr[j]))
                 j++;
 
             reverseWord(arr, i, j);
             i = j;
         }
 
-        return (new String(arr)).trim();
+        return (new String(arr, 0, newLen)).trim();
     }
 
     private void reverseWord(char[] arr, int i, int j) {
