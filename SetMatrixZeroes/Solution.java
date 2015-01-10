@@ -29,15 +29,8 @@ public class Solution {
         }
 
         for(int i = 1; i < numRows; i++) {
-            if(matrix[i][0] == 0) {
-                for(int j = 1; j < numCols; j++)
-                    matrix[i][j] = 0;
-            }
-        }
-
-        for(int j = 1; j < numCols; j++) {
-            if(matrix[0][j] == 0) {
-                for(int i = 1; i < numRows; i++)
+            for(int j = 1; j < numCols; j++) {
+                if(matrix[i][0] == 0 || matrix[0][j] == 0)
                     matrix[i][j] = 0;
             }
         }
