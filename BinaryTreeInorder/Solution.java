@@ -11,27 +11,16 @@ public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<TreeNode>();
         ArrayList<Integer> traversal = new ArrayList<Integer>();
-        TreeNode node;
+        TreeNode node = root;
 
-        if(root != null)
-            stack.push(root);
-
-        while(!stack.isEmpty()) {
-            node = stack.pop();
-
-            if(node.left == null && node.right == null) {
-                traversal.add(node.val);
-            } else {
-                if(node.right != null)
-                    stack.push(node.right);
-
+        while(!stack.isEmpty() || node != null) {
+            if(node != null) {
                 stack.push(node);
-
-                if(node.left != null)
-                    stack.push(node.left);
-
-                node.left = null;
-                node.right = null;
+                node = node.left;
+            } else {
+                node = stack.pop();
+                traversal.add(node.val);
+                node = node.right;
             }
         }
 
