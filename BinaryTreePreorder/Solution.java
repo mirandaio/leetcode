@@ -9,22 +9,22 @@
  */
 public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
-        Stack<TreeNode> list = new Stack<TreeNode>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
         ArrayList<Integer> traversal = new ArrayList<Integer>();
         TreeNode node;
 
         if(root != null)
-            list.push(root);
+            stack.push(root);
 
-        while(!list.isEmpty()) {
-            node = list.pop();
+        while(!stack.isEmpty()) {
+            node = stack.pop();
             traversal.add(node.val);
 
             if(node.right != null)
-                list.push(node.right);
+                stack.push(node.right);
 
             if(node.left != null)
-                list.push(node.left);
+                stack.push(node.left);
         }
 
         return traversal;
