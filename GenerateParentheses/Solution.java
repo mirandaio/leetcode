@@ -1,28 +1,26 @@
 public class Solution {
     public List<String> generateParenthesis(int n) {
-        StringBuilder current = new StringBuilder();
         ArrayList<String> set = new ArrayList<String>();
-        generateParenthesis(n, n, set, current);
+        char[] current = new char[2 * n];
+        generateParenthesis(n, n, set, current, 0);
         return set;
     }
 
     private void generateParenthesis(int left, int right,
-        ArrayList<String> set, StringBuilder current) {
+        ArrayList<String> set, char[] current, int count) {
         if(left == 0 && right == 0) {
-            set.add(current.toString());
+            set.add(new String(current));
             return;
         }
 
         if(left > 0) {
-            current.append('(');
-            generateParenthesis(left - 1, right, set, current);
-            current.deleteCharAt(current.length() - 1);
+            current[count] = '(';
+            generateParenthesis(left - 1, right, set, current, count + 1);
         }
 
         if(left < right) {
-            current.append(')');
-            generateParenthesis(left, right - 1, set, current);
-            current.deleteCharAt(current.length() - 1);
+            current[count] = ')';
+            generateParenthesis(left, right - 1, set, current, count + 1);
         }
     }
 }
