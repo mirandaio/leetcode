@@ -11,51 +11,37 @@
  */
 public class Solution {
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
-        if(node == null)
-            return null;
-
-        HashSet<Integer> visited = new HashSet<Integer>();
-        HashMap<Integer, UndirectedGraphNode> created =
-            new HashMap<Integer, UndirectedGraphNode>();
+        HashMap<UndirectedGraphNode, UndirectedGraphNode> visited =
+            new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
         Queue<UndirectedGraphNode> queue =
             new LinkedList<UndirectedGraphNode>();
+        UndirectedGraphNode newNode = null;
 
         if(node != null) {
             queue.add(node);
-            visited.add(node.label);
+            newNode = new UndirectedGraphNode(node.label);
+            visited.put(node, newNode);
         }
 
         while(!queue.isEmpty()) {
             UndirectedGraphNode n = queue.remove();
-            UndirectedGraphNode clone;
-
-            if(created.containsKey(n.label)) {
-                clone = created.get(n.label);
-            } else {
-                clone = new UndirectedGraphNode(n.label);
-                created.put(clone.label, clone);
-            }
+            UndirectedGraphNode clone = visited.get(n);
 
             for(UndirectedGraphNode neighbor : n.neighbors) {
                 UndirectedGraphNode cloneNeighbor;
-                
-                if(created.containsKey(neighbor.label)) {
-                    cloneNeighbor = created.get(neighbor.label);
-                } else {
-                    cloneNeighbor =
-                        new UndirectedGraphNode(neighbor.label);
-                    created.put(neighbor.label, cloneNeighbor);
-                }
-                
-                clone.neighbors.add(cloneNeighbor);
 
-                if(!visited.contains(neighbor.label)) {
+                if(visited.containsKey(neighbor)) {
+                    cloneNeighbor = visited.get(neighbor);
+                } else {
+                    cloneNeighbor = new UndirectedGraphNode(neighbor.label);
                     queue.add(neighbor);
-                    visited.add(neighbor.label);
+                    visited.put(neighbor, cloneNeighbor);
                 }
+
+                clone.neighbors.add(cloneNeighbor);
             }
         }
 
-        return created.get(node.label);
+        return newNode;
     }
 }
