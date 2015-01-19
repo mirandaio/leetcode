@@ -16,20 +16,16 @@ public class Solution {
         if(root == null)
             return null;
 
-        if(root.left == null) {
-            root.right = flattenHelper(root.right);
-        } else {
-            TreeNode left = flattenHelper(root.left);
-            root.left = null;
-            TreeNode leftEnd = left;
+        TreeNode left = flattenHelper(root.left);
+        TreeNode right = flattenHelper(root.right);
+        root.left = null;
+        root.right = left;
+        TreeNode last = root;
 
-            while(leftEnd.right != null)
-                leftEnd = leftEnd.right;
+        while(last.right != null)
+            last = last.right;
 
-            leftEnd.right = flattenHelper(root.right);
-            root.right = left;
-        }
-
+        last.right = right;
         return root;
     }
 }
