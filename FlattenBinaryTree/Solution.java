@@ -9,23 +9,20 @@
  */
 public class Solution {
     public void flatten(TreeNode root) {
-        flattenHelper(root);
-    }
+        Stack<TreeNode> stack = new Stack<TreeNode>();
 
-    private TreeNode flattenHelper(TreeNode root) {
-        if(root == null)
-            return null;
+        while(root != null) {
+            if(root.right != null)
+                stack.push(root.right);
 
-        TreeNode left = flattenHelper(root.left);
-        TreeNode right = flattenHelper(root.right);
-        root.left = null;
-        root.right = left;
-        TreeNode last = root;
+            if(root.left != null) {
+                root.right = root.left;
+                root.left = null;
+            } else if(!stack.isEmpty()) {
+                root.right = stack.pop();
+            }
 
-        while(last.right != null)
-            last = last.right;
-
-        last.right = right;
-        return root;
+            root = root.right;
+        }
     }
 }
