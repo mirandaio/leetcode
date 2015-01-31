@@ -12,6 +12,7 @@ Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 | 5   | [Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/) | | | Medium |
 | 12  | [Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/) | | | Medium |
 | 13  | [Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/) | | | Easy |
+| 94  | [Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/Solution.java)| | Medium |
 | 138 | [Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/) | | | Hard |
 | 141 | [Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/) | | | Medium |
 | 142 | [Linked List Cycle 2](https://oj.leetcode.com/problems/linked-list-cycle-ii/) | | | Medium |
