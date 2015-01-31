@@ -1,7 +1,7 @@
-leetcode
+LeetCode
 ========
 
-Solutions to [LeetCode](https://oj.leetcode.com/)
+Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 
 | #   | Title | Java | Python | Difficulty |
 |-----|-------|------|--------|------------|
