@@ -29,6 +29,12 @@ Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 | 47  |[Permutations 2](https://oj.leetcode.com/problems/permutations-ii/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/Permutations2)||Hard|
 | 51  |[N-Queens](https://oj.leetcode.com/problems/n-queens/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/NQueens)||Hard|
 | 52  |[N-Queens 2](https://oj.leetcode.com/problems/n-queens-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/NQueens2/Solution.java)||Hard|
+| 58  |[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LastWord/Solution.java)||Easy|
+| 61  |[Rotate List](https://oj.leetcode.com/problems/rotate-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/RotateList/Solution.java)||Medium|
+| 66  |[Plus One](https://oj.leetcode.com/problems/plus-one/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/PlusOne/Solution.java)||Easy|
+| 67  |[Add Binary](https://oj.leetcode.com/problems/add-binary/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/AddBinary/Solution.java)||Easy|
+| 70  |[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ClimbingStairs/Solution.java)||Easy|
+| 73  |[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SetMatrixZeroes/Solution.java)||Medium|
 | 94  |[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/Solution.java)| | Medium |
 | 138 |[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| | |Hard|
 | 141 |[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle/Solution.java)| |Medium|
