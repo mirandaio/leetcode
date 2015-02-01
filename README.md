@@ -21,6 +21,14 @@ Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 | 21  |[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/MergeLists/Solution.java)||Easy|
 | 22  |[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/GenerateParentheses/Solution.java)||Medium|
 | 24  |[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SwapNodesInPairs/Solution.java)||Medium|
+| 26  |[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/RemoveDuplicatesArray/Solution.java)||Easy|
+| 27  |[Remove Element](https://oj.leetcode.com/problems/remove-element/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/RemoveElement/Solution.java)||Easy|
+| 28  |[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ImplementstrStr/Solution.java)||Easy|
+| 36  |[Valid Sudoku](https://oj.leetcode.com/problems/valid-sudoku/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ValidSudoku/Solution.java)||Easy|
+| 46  |[Permutations](https://oj.leetcode.com/problems/permutations/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/Permutations/Solution.java)||Medium|
+| 47  |[Permutations 2](https://oj.leetcode.com/problems/permutations-ii/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/Permutations2)||Hard|
+| 51  |[N-Queens](https://oj.leetcode.com/problems/n-queens/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/NQueens)||Hard|
+| 52  |[N-Queens 2](https://oj.leetcode.com/problems/n-queens-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/NQueens2/Solution.java)||Hard|
 | 94  |[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/Solution.java)| | Medium |
 | 138 |[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| | |Hard|
 | 141 |[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle/Solution.java)| |Medium|
