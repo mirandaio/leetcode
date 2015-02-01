@@ -35,7 +35,19 @@ Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 | 67  |[Add Binary](https://oj.leetcode.com/problems/add-binary/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/AddBinary/Solution.java)||Easy|
 | 70  |[Climbing Stairs](https://oj.leetcode.com/problems/climbing-stairs/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ClimbingStairs/Solution.java)||Easy|
 | 73  |[Set Matrix Zeroes](https://oj.leetcode.com/problems/set-matrix-zeroes/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SetMatrixZeroes/Solution.java)||Medium|
-| 94  |[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/Solution.java)| | Medium |
+| 77  |[Combinations](https://oj.leetcode.com/problems/combinations/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/Combinations/Solution.java)||Medium|
+| 78  |[Subsets](https://oj.leetcode.com/problems/subsets/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/Subsets/Solution.java)||Medium|
+| 82  |[Remove Duplicates from Sorted List 2](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/RemoveDuplicatesList2/Solution.java)||Medium|
+| 83  |[Remove Duplicates from Sorted List](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/RemoveDuplicatesList/Solution.java)||Easy|
+| 86  |[Partition List](https://oj.leetcode.com/problems/partition-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/PartitionList/Solution.java)||Medium|
+| 88  |[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/MergeSortedArray)||Easy|
+| 92  |[Reverse Linked List 2](https://oj.leetcode.com/problems/reverse-linked-list-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ReverseLinkedList2/Solution.java)||Medium|
+| 94  |[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/Solution.java)| |Medium|
+| 98  |[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ValidateBST/Solution.java)||Medium|
+| 100 |[Same Tree](https://oj.leetcode.com/problems/same-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SameTree/Solution.java)||Easy|
+| 101 |[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SymmetricTree/Solution.java)||Easy|
+| 102 |[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeLevelOrderTraversal/Solution.java)||Easy|
+| 104 |[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/MaximumDepthBinaryTree/Solution.java)||Easy|
 | 138 |[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| | |Hard|
 | 141 |[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle/Solution.java)| |Medium|
 | 142 |[Linked List Cycle 2](https://oj.leetcode.com/problems/linked-list-cycle-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle2/Solution.java)| |Medium|
