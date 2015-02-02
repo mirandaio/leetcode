@@ -48,8 +48,31 @@ Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 | 101 |[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SymmetricTree/Solution.java)||Easy|
 | 102 |[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeLevelOrderTraversal/Solution.java)||Easy|
 | 104 |[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/MaximumDepthBinaryTree/Solution.java)||Easy|
+| 105 |[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ConstructPreorderInorder/Solution.java)||Medium|
+| 106 |[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ConstructInorderPostorder/Solution.java)||Medium|
+| 107 |[Binary Tree Level Order Traversal 2](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeLevelOrderTraversalII/Solution.java)||Easy|
+| 110 |[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BalancedBinaryTree/Solution.java)||Easy|
+| 111 |[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/MinimumDepthBinaryTree/Solution.java)||Easy|
+| 112 |[Path Sum](https://oj.leetcode.com/problems/path-sum/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/PathSum)||Easy|
+| 114 |[Flatten Binary Tree to Linked List](https://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/FlattenBinaryTree/Solution.java)||Medium|
+| 118 |[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/PascalsTriangle/Solution.java)||Easy|
+| 119 |[Pascal's Triangle 2](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/PascalsTriangleII/Solution.java)||Easy|
+| 125 |[Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/ValidPalindrome)||Easy|
+| 133 |[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/CloneGraph/Solution.java)||Medium|
 | 138 |[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| | |Hard|
 | 141 |[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle/Solution.java)| |Medium|
 | 142 |[Linked List Cycle 2](https://oj.leetcode.com/problems/linked-list-cycle-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle2/Solution.java)| |Medium|
+| 143 |[Reorder List](https://oj.leetcode.com/problems/reorder-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ReorderList/Solution.java)||Medium|
+| 144 |[Binary Tree Preorder Traversal](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreePreorder/Solution.java)||Medium|
+| 145 |[Binary Tree Postorder Traversal](https://oj.leetcode.com/problems/binary-tree-postorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreePostorder/Solution.java)||Hard|
+| 147 |[Insertion Sort List](https://oj.leetcode.com/problems/insertion-sort-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/InsertionSortList/Solution.java)||Medium|
+| 148 |[Sort List](https://oj.leetcode.com/problems/sort-list/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/SortList)||Medium|
+| 150 |[Evaluate Reverse Polish Notation](https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/EvaluateRPN)||Medium|
+| 151 |[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ReverseWordsString/Solution.java)||Medium|
+| 155 |[Min Stack](https://oj.leetcode.com/problems/min-stack/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/MinStack)||Medium|
+| 160 |[Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/IntersectionLinkedLists/Main.java)||Easy|
+| 165 |[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/VersionNumbers/Solution.java)||Easy|
 | 168 |[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ExcelColumn/Solution.java) | |Easy|
+| 169 |[Majority Element](https://oj.leetcode.com/problems/majority-element/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/MajorityElement/Solution.java)||Easy|
 | 171 |[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ExcelColumnNumber/Solution.java)| |Easy|
+| 172 |[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/FactorialTrailingZeroes/Solution.java)||Easy|
