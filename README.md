@@ -42,7 +42,7 @@ Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 | 86  |[Partition List](https://oj.leetcode.com/problems/partition-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/PartitionList/Solution.java)||Medium|
 | 88  |[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/MergeSortedArray)||Easy|
 | 92  |[Reverse Linked List 2](https://oj.leetcode.com/problems/reverse-linked-list-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ReverseLinkedList2/Solution.java)||Medium|
-| 94  |[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/Solution.java)| |Medium|
+| 94  |[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/Solution.java)|[Python](https://github.com/mirandaio/leetcode/blob/master/src/BinaryTreeInorder/inorder.py)|Medium|
 | 98  |[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ValidateBST/Solution.java)||Medium|
 | 100 |[Same Tree](https://oj.leetcode.com/problems/same-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SameTree/Solution.java)||Easy|
 | 101 |[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/SymmetricTree/Solution.java)||Easy|
