@@ -59,7 +59,7 @@ Solutions to [LeetCode](https://oj.leetcode.com/) coding challenges.
 | 119 |[Pascal's Triangle 2](https://oj.leetcode.com/problems/pascals-triangle-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/PascalsTriangleII/Solution.java)||Easy|
 | 125 |[Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/)|[Java](https://github.com/mirandaio/leetcode/tree/master/src/ValidPalindrome)||Easy|
 | 133 |[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/CloneGraph/Solution.java)||Medium|
-| 138 |[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| | |Hard|
+| 138 |[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/CopyListRandomPointer/Solution.java)| |Hard|
 | 141 |[Linked List Cycle](https://oj.leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle/Solution.java)| |Medium|
 | 142 |[Linked List Cycle 2](https://oj.leetcode.com/problems/linked-list-cycle-ii/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/LinkedListCycle2/Solution.java)| |Medium|
 | 143 |[Reorder List](https://oj.leetcode.com/problems/reorder-list/)|[Java](https://github.com/mirandaio/leetcode/blob/master/src/ReorderList/Solution.java)||Medium|
